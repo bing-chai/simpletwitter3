@@ -17,6 +17,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')
 
+DB_NAME = os.environ['DB_NAME']
+DB_USER = os.environ['DB_USER']
+DB_PASS = os.environ['DB_PASS']
+
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
 
@@ -43,6 +47,7 @@ INSTALLED_APPS = [
     'accounts',
     'groups',
     'posts',
+    'psycopg2',
 ]
 
 MIDDLEWARE = [
@@ -81,10 +86,16 @@ WSGI_APPLICATION = 'simpletwitter3.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/1.11/ref/settings/#databases
 
+#database changed to postgresql from http://www.acucciniello.com/How-to-Setup-PostgreSQL-with-a-Django-Backend/
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': DB_NAME,
+        'USER': DB_USER,
+        'PASSWORD': DB_PASS,
+        'HOST': '127.0.0.1',
+        'PORT': '5432',
     }
 }
 
