@@ -19,8 +19,8 @@ PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')
 
 # DB_NAME = os.environ['DB_NAME']
-DB_USER = os.environ['DB_USER']
-DB_PASS = os.environ['DB_PASS']
+# DB_USER = os.environ['DB_USER']
+# DB_PASS = os.environ['DB_PASS']
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.11/howto/deployment/checklist/
@@ -91,10 +91,10 @@ WSGI_APPLICATION = 'simpletwitter3.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'postgres://bmkaqxtbctscbm:300e04a100ee06198fcc3eaa8f033749f39ba0ed829c0a8ca448916544424ff5@ec2-184-72-223-199.compute-1.amazonaws.com:5432/dcnpstvuv30ffm',
-        'USER': DB_USER,
-        'PASSWORD': DB_PASS,
+        'USER': 'postgre',
+        'PASSWORD': 'oFfu8Y2cmNAyXF8kvl2Kt779JN9WMk',
         'HOST': '',
         'PORT': '',
         'client_encoding': 'UTF8',
