@@ -92,7 +92,7 @@ WSGI_APPLICATION = 'simpletwitter3.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': DB_NAME,
+        'NAME': 'postgres://bmkaqxtbctscbm:300e04a100ee06198fcc3eaa8f033749f39ba0ed829c0a8ca448916544424ff5@ec2-184-72-223-199.compute-1.amazonaws.com:5432/dcnpstvuv30ffm',
         'USER': DB_USER,
         'PASSWORD': DB_PASS,
         'HOST': '',
