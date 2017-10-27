@@ -13,7 +13,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
 TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')
 ```
-@[1-3](Importing packages) @[6-8](Directory declarations)
+@[1-3](Importing packages)
+@[6-8](Directory declarations)
 
 ---
 
