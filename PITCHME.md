@@ -24,7 +24,11 @@ And another
 
 ---
 
----?image=gitpich_assets/with_glyphicons.png&size=auto
+```python
+Code here
+```
+---
+![adding glyphicons](gitpich_assets/with_glyphicons.png)
 Test image
 ---
 
