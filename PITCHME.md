@@ -1,8 +1,10 @@
 ---
+@title[First]
 
-Hello, World!
+Hello World
 
 ---
+@title[Django basics]
 ```python
 import os
 import dj_database_url
