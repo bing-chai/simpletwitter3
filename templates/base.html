@@ -34,14 +34,14 @@
             <a class="navbar-brand mynav" href="{% url 'home' %}">Star Social</a>
             <ul class="nav justify-content-end">
               {% if user.is_authenticated %}
-                    <li><a href="{% url 'posts:create' %}" class="btn btn-simple"><i class="fa fa-pencil-square-o"></i>Post</a></li>
-                    <li><a href="{% url 'groups:all' %}" class="btn btn-simple">Groups</a></li>
-                    <li><a href="{% url 'groups:create' %}" class="btn btn-simple">Create Group</a></li>
-                    <li><a href="{% url 'accounts:logout' %}" class="btn btn-simple">Log out</a></li>
+                    <li><a href="{% url 'posts:create' %}" class="btn btn-simple"><i class="fa fa-pencil-square-o"></i> Post</a></li>
+                    <li><a href="{% url 'groups:all' %}" class="btn btn-simple"><i class="fa fa-users"></i> Groups</a></li>
+                    <li><a href="{% url 'groups:create' %}" class="btn btn-simple"><i class="fa fa-user-plus"></i> Create Group</a></li>
+                    <li><a href="{% url 'accounts:logout' %}" class="btn btn-simple"><i class="fa fa-sign-out"></i> Log out</a></li>
               {% else %}
                     <!-- <li><a href="{% url 'groups:all' %}" class="btn btn-simple">Groups</a></li> -->
-                    <li><a href="{% url 'accounts:login' %}" class="btn btn-simple">Log in</a></li>
-                    <li><a href="{% url 'accounts:signup' %}" class="btn btn-simple"><i class="fa fa-user"></i>Sign up</a></li>
+                    <li><a href="{% url 'accounts:signup' %}" class="btn btn-simple"><i class="fa fa-user-circle-o"></i> Sign up</a></li>
+                    <li><a href="{% url 'accounts:login' %}" class="btn btn-simple"><i class="fa fa-sign-in"></i> Log in</a></li>
               {% endif %}
             </ul>
 
