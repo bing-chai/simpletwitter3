@@ -28,7 +28,7 @@ And another
 Code here
 ```
 ---
-![adding glyphicons](gitpich_assets/with_glyphicons.png)
+![adding glyphicons](https://github.com/bing-chai/simpletwitter3/blob/master/gitpitch_assets/with_glyphicons.PNG)
 Test image
 ---
 
