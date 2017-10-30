@@ -5,8 +5,10 @@
     <meta charset="utf-8">
     <title>Star Social</title>
     <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
     <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
@@ -32,14 +34,14 @@
             <a class="navbar-brand mynav" href="{% url 'home' %}">Star Social</a>
             <ul class="nav justify-content-end">
               {% if user.is_authenticated %}
-                    <li><a href="{% url 'posts:create' %}" class="btn btn-simple">Post</a></li>
+                    <li><a href="{% url 'posts:create' %}" class="btn btn-simple"><i class="fa fa-pencil-square-o"></i>Post</a></li>
                     <li><a href="{% url 'groups:all' %}" class="btn btn-simple">Groups</a></li>
                     <li><a href="{% url 'groups:create' %}" class="btn btn-simple">Create Group</a></li>
-                    <li><a href="{% url 'accounts:logout' %}" class="btn btn-simple"><span class="glyphicon glyphicon-log-out">Log out</a></li>
+                    <li><a href="{% url 'accounts:logout' %}" class="btn btn-simple">Log out</a></li>
               {% else %}
                     <!-- <li><a href="{% url 'groups:all' %}" class="btn btn-simple">Groups</a></li> -->
-                    <li><a href="{% url 'accounts:login' %}" class="btn btn-simple"><span class="glyphicon glyphicon-log-in"></span>Log in</a></li>
-                    <li><a href="{% url 'accounts:signup' %}" class="btn btn-simple"><span class="glyphicon glyphicon-user"></span>Sign up</a></li>
+                    <li><a href="{% url 'accounts:login' %}" class="btn btn-simple">Log in</a></li>
+                    <li><a href="{% url 'accounts:signup' %}" class="btn btn-simple"><i class="fa fa-user"></i>Sign up</a></li>
               {% endif %}
             </ul>
 
