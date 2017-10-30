@@ -17,10 +17,10 @@ TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')
 @[6-8](Directory declarations)
 
 ---
-
+Another
 
 ---
-
+And another
 
 ---
 
