@@ -18,17 +18,16 @@ TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')
 
 ---
 Another
-
 ---
 And another
-
 ---
-
 ```python
 Code here
 ```
+@[1](Highlight line 1)
 ---
-![adding glyphicons](https://github.com/bing-chai/simpletwitter3/blob/master/gitpitch_assets/with_glyphicons.PNG)
+![Image-Absolute](https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/octocat-privateinvestocat.jpg)
+![addingglyphicons](gitpitch_assets/with_glyphicons.PNG)
 Test image
 ---
 
