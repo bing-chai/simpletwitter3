@@ -25,7 +25,7 @@ And another
 ---
 
 ---?image=gitpich_assets/with_glyphicons.png&size=auto
-
+Test image
 ---
 
 The End
