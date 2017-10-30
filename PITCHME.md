@@ -26,9 +26,8 @@ Code here
 ```
 @[1](Highlight line 1)
 ---
-![Image-Absolute](https://d1z75bzl1vljy2.cloudfront.net/kitchen-sink/octocat-privateinvestocat.jpg)
 ![addingglyphicons](gitpitch_assets/with_glyphicons.PNG)
-Test image
+Added glyphicons using fontawesome (previous glyphicons font support deprecated in bootstrap v4)
 ---
 
 The End
