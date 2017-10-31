@@ -37,9 +37,12 @@ TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')
 
 ---
 @title[Challenges: Deployment]
+# Challenges: Deployment
+
 Amazon AWS, PythonAnywhere, Heroku
 +++
 @title[Heroku]
+# Heroku
 Migrating sqlite to postgresql
 +++
 @title[Deployment on Heroku]
@@ -50,7 +53,7 @@ It's alive!
 ![Heroku Down](gitpitch_assets/heroku_down.png)
 +++
 @title[Internet down]
-![Internet issues](gitpitch_assets/optus_down.png)
+![Internet issues](gitpitch_assets/optus_down.PNG)
 ---
 ```python
 Code here
@@ -58,10 +61,18 @@ Code here
 @[1](Highlight line 1)
 ---
 @title[Adding new features]
-![addingglyphicons](gitpitch_assets/with_glyphicons.png)
+![addingglyphicons](gitpitch_assets/with_glyphicons.PNG)
 Added glyphicons using fontawesome (previous glyphicons font support deprecated in bootstrap v4)
 ---
+# Features?
+- [x] glyphicons
+- [ ] clean up templates
+- [ ] user profile pictures
+- [ ]
 
-The End
+
+---
+
+The journey is just beginning...
 
 ---
