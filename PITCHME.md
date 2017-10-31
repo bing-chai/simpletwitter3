@@ -6,9 +6,8 @@ Hello, World!
 ---
 @title[Introduction]
 ![StarSocial](gitpitch_assets/bing_chai.png)
-# Bing Cheng Chai
-<p align='center'>Bachelor of Food Science, PhD in Chemistry Professional Learner
-</p>
+## Bing Cheng Chai
+Bachelor of Food Science, PhD in Chemistry Professional Learner
 ---
 
 @title[Star Social]

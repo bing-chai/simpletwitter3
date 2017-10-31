@@ -1,1 +1,2 @@
 theme : black
+theme-override : gitpitch_assets/gitpitch.css
