@@ -1,11 +1,18 @@
 ---
 @title[First]
 
-Hello World
+Hello, World!
 
 ---
+@title[Introduction]
+![StarSocial](gitpitch_assets/bing_chai.png)
+# Bing Cheng Chai
+<p align='center'>Bachelor of Food Science, PhD in Chemistry Professional Learner
+</p>
+---
+
 @title[Star Social]
-![addingglyphicons](gitpitch_assets/WelcomeToStarSocial.PNG)
+![StarSocial](gitpitch_assets/WelcomeToStarSocial.png)
 [Welcome to Star Social!](https://whispering-sands-27229.herokuapp.com/)
 ---
 @title[Django basics]
@@ -33,7 +40,7 @@ Code here
 @[1](Highlight line 1)
 ---
 @title[Adding new features]
-![addingglyphicons](gitpitch_assets/with_glyphicons.PNG)
+![addingglyphicons](gitpitch_assets/with_glyphicons.png)
 Added glyphicons using fontawesome (previous glyphicons font support deprecated in bootstrap v4)
 ---
 
