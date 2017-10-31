@@ -4,6 +4,10 @@
 Hello World
 
 ---
+@title[Star Social]
+![addingglyphicons](gitpitch_assets/WelcomeToStarSocial.PNG)
+[Welcome to Star Social!](https://whispering-sands-27229.herokuapp.com/)
+---
 @title[Django basics]
 ```python
 import os
@@ -28,6 +32,7 @@ Code here
 ```
 @[1](Highlight line 1)
 ---
+@title[Adding new features]
 ![addingglyphicons](gitpitch_assets/with_glyphicons.PNG)
 Added glyphicons using fontawesome (previous glyphicons font support deprecated in bootstrap v4)
 ---
