@@ -1,7 +1,9 @@
 ---
 @title[First]
 
-Hello, World!
+# Hello, World!
+## A journey with django
+
 
 ---
 @title[Introduction]
@@ -14,7 +16,7 @@ Bachelor of Food Science, PhD in Chemistry Professional Learner
 ![StarSocial](gitpitch_assets/WelcomeToStarSocial.png)
 [Welcome to Star Social!](https://whispering-sands-27229.herokuapp.com/)
 ---
-@title[Django basics]
+@title[Django Config]
 ```python
 import os
 import dj_database_url
@@ -27,11 +29,28 @@ TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')
 ```
 @[1-3](Importing packages)
 @[6-8](Directory declarations)
++++
+@title[]
++++
+@title[]
+
 
 ---
-Another
+@title[Challenges: Deployment]
+Amazon AWS, PythonAnywhere, Heroku
++++
+@title[Heroku]
+Migrating sqlite to postgresql
++++
+@title[Deployment on Heroku]
+![HerokuDashboard](gitpitch_assets/heroku_overview.png)
+It's alive!
 ---
-And another
+@title[Other challenges]
+![Heroku Down](gitpitch_assets/heroku_down.png)
++++
+@title[Internet down]
+![Internet issues](gitpitch_assets/optus_down.png)
 ---
 ```python
 Code here
