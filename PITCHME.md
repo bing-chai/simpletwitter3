@@ -23,6 +23,8 @@ Professional Learner
 Udemy
 ![Udemy Overview](gitpitch_assets/Udemy_overview.PNG)
 ---
+## Code sample: settings.py
+
 @title[Django Config]
 ```python
 import os
@@ -142,6 +144,8 @@ Added glyphicons using fontawesome (previous glyphicons font support deprecated 
 Glyphicons
 ---
 @title[closing debug]
+Debug = true (closed today)
+
 ![Debug404](gitpitch_assets/StarSoc_404.PNG)
 ---
 # Features?
@@ -151,13 +155,15 @@ Glyphicons
 - [ ] user admin features: change password, etc
 ---
 # Summary:
-Learned the basics of django and Python, creating a social message board app deployed on Heroku.\
+Learned the basics of django and Python, creating a social message board app deployed on Heroku.
+
 Tools used:
-* atom [text editor]
-* github [online repository]
-* heroku [deployment platform]
 * udemy [online learning]
-* stackoverflow [troubleshooting]
+* atom [text editor]
+* GitHub [desktop/online repository]
+* Heroku [deployment platform]
+* Stack Overflow [troubleshooting]
+* GitPitch [presentation]
 ---
 ## Thank you
 The djourney is just beginning...
