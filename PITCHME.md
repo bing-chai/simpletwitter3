@@ -30,9 +30,13 @@ TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')
 @[1-3](Importing packages)
 @[6-8](Directory declarations)
 +++
+@title[Modules]
+App modules
+![Modules](gitpitch_assets/simpletwitter3_filetree.png)
+---
 @title[package bloat]
 # Package bloat?
-```python
+```txt
 asn1crypto==0.22.0
 blessed==1.14.2
 botocore==1.7.32
@@ -93,12 +97,16 @@ It's alive!
 @title[Other challenges]
 ## Other challenges
 ### Last night...
-![Heroku Down](gitpitch_assets/heroku_down.PNG&size=auto)
+![Heroku Down](gitpitch_assets/heroku_down.PNG)
 +++
 @title[Internet down]
 This morning...
 ![Internet issues](gitpitch_assets/optus_down.PNG)
 
+---
+@title[Adding new features]
+Updating comes with risks
+![bootstrapv4](gitpitch_assets/BootstrapV4_components.png)
 ---
 @title[Adding new features]
 ![addingglyphicons](gitpitch_assets/with_glyphicons.PNG)
