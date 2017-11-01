@@ -19,6 +19,7 @@ Professional Learner
 
 [Github.com/bing-chai/simpletwitter3](https://github.com/bing-chai/simpletwitter3)
 ---
+@title[udemy]
 Udemy
 ![Udemy Overview](gitpitch_assets/Udemy_overview.PNG)
 ---
@@ -40,6 +41,11 @@ TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')
 Apps are modular and refer to each other for functions
 
 ![Modules](gitpitch_assets/simpletwitter3_filetree.PNG)
++++
+@title[Accounts Module]
+Contains models, forms, urls, views, etc.
+
+![Accounts Module](gitpitch_assets/StarSoc_accountsmodule.PNG)
 ---
 @title[Challenges: Deployment]
 # Challenges: Deployment
@@ -155,5 +161,5 @@ Tools used:
 ---
 ## Thank you
 The djourney is just beginning...
-
 ---
+@title[blank slide]
