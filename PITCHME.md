@@ -108,7 +108,7 @@ This morning...
 @title[Adding new features]
 Updating comes with risks
 ![bootstrapv4](gitpitch_assets/BootstrapV4_components.png)
----
++++
 @title[Adding new features]
 ![addingglyphicons](gitpitch_assets/with_glyphicons.PNG)
 Added glyphicons using fontawesome (previous glyphicons font support deprecated in bootstrap v4)
@@ -130,6 +130,9 @@ Added glyphicons using fontawesome (previous glyphicons font support deprecated 
 </ul>
 ```
 Glyphicons
+---
+@title[closing debug]
+![Debug404](gitpitch_assets/StarSoc_404.png)
 ---
 # Features?
 - [x] glyphicons
