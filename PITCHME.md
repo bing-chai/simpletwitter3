@@ -13,8 +13,10 @@ Professional Learner
 ---
 
 @title[Star Social]
+
 ![StarSocial](gitpitch_assets/WelcomeToStarSocial.png)
-[Welcome to Star Social!](https://whispering-sands-27229.herokuapp.com/)\
+[Welcome to Star Social!](https://whispering-sands-27229.herokuapp.com/)
+
 [Github.com/bing-chai/simpletwitter3](https://github.com/bing-chai/simpletwitter3)
 ---
 Udemy
@@ -35,8 +37,9 @@ TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')
 @[6-8](Directory declarations)
 +++
 @title[Modules]
-![Modules](gitpitch_assets/simpletwitter3_filetree.PNG)
 Apps are modular and refer to each other for functions
+
+![Modules](gitpitch_assets/simpletwitter3_filetree.PNG)
 ---
 @title[Challenges: Deployment]
 # Challenges: Deployment
@@ -97,7 +100,8 @@ whitenoise==3.3.1
 ---
 @title[Other challenges]
 ## Other challenges
-Last night...\
+Last night...
+
 ![Heroku Down](gitpitch_assets/heroku_down.PNG)
 +++
 @title[Internet down]
