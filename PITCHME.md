@@ -88,27 +88,45 @@ Migrating sqlite to postgresql
 +++
 @title[Deployment on Heroku]
 ![HerokuDashboard](gitpitch_assets/heroku_overview.png)
-It's alive! :shipit:
+It's alive!
 ---
 @title[Other challenges]
+# Other challenges
+## Last night...
 ![Heroku Down](gitpitch_assets/heroku_down.PNG)
 +++
 @title[Internet down]
+This morning...
 ![Internet issues](gitpitch_assets/optus_down.PNG)
----
-```python
-Code here
-```
-@[1](Highlight line 1)
+
 ---
 @title[Adding new features]
 ![addingglyphicons](gitpitch_assets/with_glyphicons.PNG)
 Added glyphicons using fontawesome (previous glyphicons font support deprecated in bootstrap v4)
++++
+@title[The Code]
+```python
+<a class="navbar-brand mynav" href="{% url 'home' %}">Star Social</a>
+<ul class="nav justify-content-end">
+  {% if user.is_authenticated %}
+        <li><a href="{% url 'posts:create' %}" class="btn btn-simple"><i class="fa fa-pencil-square-o"></i> Post</a></li>
+        <li><a href="{% url 'groups:all' %}" class="btn btn-simple"><i class="fa fa-users"></i> Groups</a></li>
+        <li><a href="{% url 'groups:create' %}" class="btn btn-simple"><i class="fa fa-user-plus"></i> Create Group</a></li>
+        <li><a href="{% url 'accounts:logout' %}" class="btn btn-simple"><i class="fa fa-sign-out"></i> Log out</a></li>
+  {% else %}
+        <!-- <li><a href="{% url 'groups:all' %}" class="btn btn-simple">Groups</a></li> -->
+        <li><a href="{% url 'accounts:signup' %}" class="btn btn-simple"><i class="fa fa-user-circle-o"></i> Sign up</a></li>
+        <li><a href="{% url 'accounts:login' %}" class="btn btn-simple"><i class="fa fa-sign-in"></i> Log in</a></li>
+  {% endif %}
+</ul>
+```
+Glyphicons
 ---
 # Features?
-- [x]:white_check_mark: glyphicons
-- [ ]:white_medium_square: clean up templates
-- [ ]:white_medium_square: user profile pictures
+- [x] glyphicons
+- [ ] clean up post and group templates
+- [ ] user profile pictures
+- [ ] user admin features: change password, etc
 ---
 
 The journey is just beginning...
