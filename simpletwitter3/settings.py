@@ -29,7 +29,7 @@ TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')
 SECRET_KEY = "6!ge-!62(vu0mwg!2tv#7)!1=&e29n!+674jlmm8^mn_$=y8k$"
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 # Application definition
 
