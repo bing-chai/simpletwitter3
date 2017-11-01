@@ -14,7 +14,7 @@ Professional Learner
 
 @title[Star Social]
 ![StarSocial](gitpitch_assets/WelcomeToStarSocial.png)
-[Welcome to Star Social!](https://whispering-sands-27229.herokuapp.com/)
+[Welcome to Star Social!](https://whispering-sands-27229.herokuapp.com/)\
 [Github.com/bing-chai/simpletwitter3](https://github.com/bing-chai/simpletwitter3)
 ---
 Udemy
@@ -97,7 +97,7 @@ whitenoise==3.3.1
 ---
 @title[Other challenges]
 ## Other challenges
-Last night...
+Last night...\
 ![Heroku Down](gitpitch_assets/heroku_down.PNG)
 +++
 @title[Internet down]
