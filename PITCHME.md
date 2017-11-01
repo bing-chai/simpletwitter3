@@ -4,17 +4,20 @@
 # Hello, World!
 ## A journey with django and Python
 
-
 ---
 @title[Introduction]
 ![StarSocial](gitpitch_assets/bing_chai.png)
 ## Bing Cheng Chai
-Bachelor of Food Science, PhD in Chemistry Professional Learner
+Bachelor of Food Science, PhD in Chemistry
+Professional Learner
 ---
 
 @title[Star Social]
 ![StarSocial](gitpitch_assets/WelcomeToStarSocial.png)
 [Welcome to Star Social!](https://whispering-sands-27229.herokuapp.com/)
+---
+Udemy
+![Udemy Overview](gitpitch_assets/Udemy_overview.png)
 ---
 @title[Django Config]
 ```python
@@ -31,8 +34,8 @@ TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')
 @[6-8](Directory declarations)
 +++
 @title[Modules]
-App modules
 ![Modules](gitpitch_assets/simpletwitter3_filetree.PNG)
+Apps are modular and refer to each other for functions
 ---
 @title[package bloat]
 # Package bloat?
