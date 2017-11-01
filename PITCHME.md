@@ -128,7 +128,7 @@ Glyphicons
 - [ ] user profile pictures
 - [ ] user admin features: change password, etc
 ---
-
-The journey is just beginning...
+## Thank you
+### The djourney is just beginning...
 
 ---
