@@ -91,9 +91,9 @@ Migrating sqlite to postgresql
 It's alive!
 ---
 @title[Other challenges]
-# Other challenges
-## Last night...
-![Heroku Down](gitpitch_assets/heroku_down.PNG)
+## Other challenges
+### Last night...
+![Heroku Down](gitpitch_assets/heroku_down.PNG&size=auto)
 +++
 @title[Internet down]
 This morning...
@@ -105,7 +105,7 @@ This morning...
 Added glyphicons using fontawesome (previous glyphicons font support deprecated in bootstrap v4)
 +++
 @title[The Code]
-```python
+```html
 <a class="navbar-brand mynav" href="{% url 'home' %}">Star Social</a>
 <ul class="nav justify-content-end">
   {% if user.is_authenticated %}
