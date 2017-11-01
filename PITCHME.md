@@ -2,7 +2,7 @@
 @title[Hello!]
 
 # Hello, World!
-## A journey with django and Python
+A journey with django and Python
 
 ---
 @title[Introduction]
@@ -17,7 +17,7 @@ Professional Learner
 [Welcome to Star Social!](https://whispering-sands-27229.herokuapp.com/)
 ---
 Udemy
-![Udemy Overview](gitpitch_assets/Udemy_overview.png)
+![Udemy Overview](gitpitch_assets/Udemy_overview.PNG)
 ---
 @title[Django Config]
 ```python
@@ -36,6 +36,20 @@ TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')
 @title[Modules]
 ![Modules](gitpitch_assets/simpletwitter3_filetree.PNG)
 Apps are modular and refer to each other for functions
+---
+@title[Challenges: Deployment]
+# Challenges: Deployment
+Why simpletwitter3?
+
+Amazon AWS, PythonAnywhere, Heroku
++++
+@title[Heroku]
+# Heroku
+Migrating sqlite to postgresql
++++
+@title[Deployment on Heroku]
+![HerokuDashboard](gitpitch_assets/heroku_overview.png)
+It's alive!
 ---
 @title[package bloat]
 # Package bloat?
@@ -79,24 +93,6 @@ wcwidth==0.1.7
 websocket-client==0.44.0
 whitenoise==3.3.1
 ```
-+++
-@title[]
-
-
----
-@title[Challenges: Deployment]
-# Challenges: Deployment
-## Why simpletwitter3?
-
-Amazon AWS, PythonAnywhere, Heroku
-+++
-@title[Heroku]
-# Heroku
-Migrating sqlite to postgresql
-+++
-@title[Deployment on Heroku]
-![HerokuDashboard](gitpitch_assets/heroku_overview.png)
-It's alive!
 ---
 @title[Other challenges]
 ## Other challenges
@@ -135,7 +131,7 @@ Added glyphicons using fontawesome (previous glyphicons font support deprecated 
 Glyphicons
 ---
 @title[closing debug]
-![Debug404](gitpitch_assets/StarSoc_404.png)
+![Debug404](gitpitch_assets/StarSoc_404.PNG)
 ---
 # Features?
 - [x] glyphicons
@@ -144,6 +140,6 @@ Glyphicons
 - [ ] user admin features: change password, etc
 ---
 ## Thank you
-### The djourney is just beginning...
+The djourney is just beginning...
 
 ---
