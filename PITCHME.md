@@ -15,6 +15,7 @@ Professional Learner
 @title[Star Social]
 ![StarSocial](gitpitch_assets/WelcomeToStarSocial.png)
 [Welcome to Star Social!](https://whispering-sands-27229.herokuapp.com/)
+[Github.com/bing-chai/simpletwitter3](https://github.com/bing-chai/simpletwitter3)
 ---
 Udemy
 ![Udemy Overview](gitpitch_assets/Udemy_overview.PNG)
@@ -50,7 +51,7 @@ Migrating sqlite to postgresql
 @title[Deployment on Heroku]
 ![HerokuDashboard](gitpitch_assets/heroku_overview.png)
 It's alive!
----
++++
 @title[package bloat]
 # Package bloat?
 ```txt
@@ -96,7 +97,7 @@ whitenoise==3.3.1
 ---
 @title[Other challenges]
 ## Other challenges
-### Last night...
+Last night...
 ![Heroku Down](gitpitch_assets/heroku_down.PNG)
 +++
 @title[Internet down]
@@ -138,6 +139,15 @@ Glyphicons
 - [ ] clean up post and group templates
 - [ ] user profile pictures
 - [ ] user admin features: change password, etc
+---
+# Summary:
+Learned the basics of django and Python, creating a social message board app deployed on Heroku.\
+Tools used:
+* atom [text editor]
+* github [online repository]
+* heroku [deployment platform]
+* udemy [online learning]
+* stackoverflow [troubleshooting]
 ---
 ## Thank you
 The djourney is just beginning...
