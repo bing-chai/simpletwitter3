@@ -32,7 +32,7 @@ TEMPLATE_DIR = os.path.join(BASE_DIR,'templates')
 +++
 @title[Modules]
 App modules
-![Modules](gitpitch_assets/simpletwitter3_filetree.png)
+![Modules](gitpitch_assets/simpletwitter3_filetree.PNG)
 ---
 @title[package bloat]
 # Package bloat?
@@ -83,6 +83,7 @@ whitenoise==3.3.1
 ---
 @title[Challenges: Deployment]
 # Challenges: Deployment
+## Why simpletwitter3?
 
 Amazon AWS, PythonAnywhere, Heroku
 +++
